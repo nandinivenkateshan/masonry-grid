@@ -1,0 +1,32 @@
+.container {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.div1,.div2,.div3 {
+border: 1px solid black;
+}
+.div1 {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(8,1fr);
+}
+.div1_d1 {
+    grid-area: 1/1/4/3;
+    background: purple;
+}
+.div1_d2 {
+    grid-area: 4/1/7/2;
+    background: green;
+}
+.div1_d3 {
+    grid-area: 4/2/5/3;
+    background: yellow;
+}
+.div1_d4 {
+    grid-area: 5/2/7/3;
+    background: red;
+}
+.div1_d5 {
+    grid-area: 7/1/9/3;
+    background: rgb(100, 76, 76);
+}
